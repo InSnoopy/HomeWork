@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="navigation__menu">
+            <button class="navigation__button navigation__menu__button">
+                <img src="assets/hamBtn.PNG" alt="youTube logo">
+            </button>
+
+            <img src="assets/youtube-logo2.png" alt="youTube logo" style="width: 124px; height: 38px;">
+        </div>
+
+        <div class="navigation__search">
+            <input type="search" placeholder="검색">
+            <button class="navigation__button navigation__search__icon" style="padding: 0;">
+                <img src="assets/glass.PNG" alt="youTube glass">
+            </button>
+            <button class="navigation__button">
+                <img src="assets/mic.PNG" alt="youTube mic">
+            </button>
+        </div>
+        <div class="navigation__options">
+            <button class="navigation__button">
+                <img src="assets/loginBtn.PNG" alt="youTube login">
+            </button>
+        </div>
+    </div>
+
+    <div class="chips" style="justify-content: center;">
+        <div class="chips__item chips__item--selected">
+            전체
+        </div>
+        <div class="chips__item">
+            실시간
+        </div>
+        <div class="chips__item">
+            게임
+        </div>
+        <div class="chips__item">
+            음악
+        </div>
+        <div class="chips__item">
+            축구
+        </div>
+        <div class="chips__item">
+            요리
+        </div>
+        <div class="chips__item">
+            최근에 업로드된 동영상
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar__section">
+            <a class="sidebar__section__link sidebar__section__link--selected">
+                <img src="assets/homeSelect.PNG" alt="youTube mic">
+                <span>
+                    홈
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/search.PNG" alt="youTube mic">
+                <span>
+                    탐색
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/shots.PNG" alt="youTube mic">
+                <span>
+                    Shots
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/subs.PNG" alt="youTube mic">
+                <span>
+                    구독
+                </span>
+            </a>
+        </div>
+
+        <div class="sidebar__section">
+            <a class="sidebar__section__link">
+                <img src="assets/myDisk.PNG" alt="youTube mic">
+                <span>보관함</span>
+            </a>
+
+            <a class="sidebar__section__link">
+                <img src="assets/history.PNG" alt="youTube mic">
+                <span>시청 기록</span>
+            </a>
+        </div>
+
+        <div class="sidebar__section" style="padding: 26px; font-size: 15px;">
+            <span>로그인하면 동영상에 좋아요를</span>
+            <span>표시하고 댓글을 달거나 구독</span>
+            <span>할 수 있습니다.</span>
+            <div>
+                <img src="assets/loginBtn.PNG" alt="youTube mic">
+            </div>
+        </div>
+
+        <div class="sidebar__section">
+            <h3>탐색</h3>
+            <a class="sidebar__section__link">
+                <img src="assets/music.PNG" alt="youTube mic">
+                <span>
+                    음악
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/sports.PNG" alt="youTube mic">
+                <span>
+                    스포츠
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/game.PNG" alt="youTube mic">
+                <span>
+                    게임
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/movie.PNG" alt="youTube mic">
+                <span>
+                    영화
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/study.PNG" alt="youTube mic">
+                <span>
+                    학습
+                </span>
+            </a>
+            <a class="sidebar__section__link">
+                <img src="assets/360.PNG" alt="youTube mic">
+                <span>
+                    360° 동영상
+                </span>
+            </a>
+        </div>
+
+        <div class="sidebar__section">
+        </div>
+    </div>
+    <main class="feed">
+        <script lang="javascript">
+            for (var i = 0; i < 20; i++) {
+                document.write("")
+                document.write('<div class="feed__item">')
+                document.write('    <a href="https://www.youtube.com/watch?v=BprNQPKPfeQ">')
+                document.write('        <div class=""><img src="assets/maxresdefault.jpg" style="width: 318px;;"></div>')
+                document.write('    </a>')
+                document.write('    <div class="feed__item__info">')
+                document.write('        <div class=""><img class="feed__item__info__avatar" alt=""  src="assets/maxresdefault.jpg">')
+                document.write('        </div>')
+                document.write('        <div>')
+                document.write('            <h3>')
+                document.write('                <a href="https://www.youtube.com/watch?v=BprNQPKPfeQ"> 짱구는 못말러 20기 8화 ')
+                document.write('                </a>')
+                document.write('            </h3>')
+                document.write('            <a href="https://www.youtube.com/channel/UC2cIM95E1TVbKNznKbJrk8A">투니버스</a>')
+                document.write('            <p>조회수 81만회 &middot; 1일전</p>')
+                document.write('        </div>')
+                document.write('    </div>')
+                document.write('</div>')
+            }
+        </script>
+    </main>
+</body>
+
+</html>
